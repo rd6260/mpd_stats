@@ -20,7 +20,7 @@ hyprctl dispatch exec ~/.local/share/bin/mpd_playcount_tracker.sh
 
 Put this in your hyprland config file for auto start
 ```bash
-exec ~/.local/share/bin/mpd_playcount_tracker.sh
+exec-once ~/.local/share/bin/mpd_playcount_tracker.sh
 ```
 
 
